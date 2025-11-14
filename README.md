@@ -80,7 +80,7 @@ Your journey will take you through the wildness of the American Midwest and acro
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
    > these variables are Objects
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   > Your public Loom URL here. https://www.loom.com/share/bb16e29ff24e45f3b6a915a4deb5959b
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -93,6 +93,7 @@ Your journey will take you through the wildness of the American Midwest and acro
    > The value of database is a variable. it was created to store the information for the module that we can access when needed 
    6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
    > I believe the variable herdSize is coming from the cattle.js module  
+
 
 ## When You Are Done
 
