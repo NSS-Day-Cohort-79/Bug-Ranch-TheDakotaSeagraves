@@ -77,10 +77,12 @@ Your journey will take you through the wildness of the American Midwest and acro
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
    > The variable "drovers" is an array
+   
    > the value of "drovers" is an array that holds the 5 drovers objects that are randomly picked from our database.
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
    > these variables are Objects
-   > is a variable that holds one item from the drovers array during each iteration (each time the loop runs). the loop iterates through the array and on each iteration drover gets assigned the next object in the list.
+   
+   > Drover is a variable that holds one object from the drovers array during each iteration (each time the loop runs). the loop iterates through the array and on each iteration drover gets assigned the next object in the list.
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
    > Your public Loom URL here. https://www.loom.com/share/bb16e29ff24e45f3b6a915a4deb5959b
 4. Also in the **journey** module, there is the following code:
@@ -93,6 +95,7 @@ Your journey will take you through the wildness of the American Midwest and acro
    > The code above is a for loop that takes the array variables and loops it through the objects repeatedly till it goes through the whole list and provides the data in the local scope
    
    > the for loop executes the code inside the curly brackets repeatedly. Each time it runs, it pushes (adds) the string "forest" to the journey array. this repeats until forestNumber is no longer less than areas.forests.
+   >this is a for loop we are setting the forestNumber variable to 0. It's telling it where to start. then were going to check if forestNumber is less than areas.forest (which is 2). So long as this condition is true it will add one to forestNumber each time it runs. The code will then push the string forest to the journey array.The loop will continue to run until the condition is false   
 
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
    > The value of database is a variable. it was created to store the information for the module that we can access when needed 
